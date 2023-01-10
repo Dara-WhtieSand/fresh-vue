@@ -1,9 +1,20 @@
 <script setup>
-import IconSupport from "../components/icons/IconSupport.vue";
+import AddButton from '../components/buttons/AddButton.vue';
+
+
+function handleClick() {
+  console.log("hello");
+}
 </script>
 
 <template>
   <main>
-    <IconSupport />
+    <AddButton />
+    <!-- <a-button type="primary" @click="handleEdit()">
+      <template #icon>
+        <plus-outlined />
+      </template>
+      新建
+    </a-button> -->
   </main>
 </template>

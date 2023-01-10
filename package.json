@@ -9,8 +9,12 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "ant-design-vue": "^3.2.15",
     "pinia": "^2.0.28",
+    "unplugin-vue-components": "^0.22.12",
+    "viser-vue": "^2.4.8",
     "vue": "^3.2.45",
+    "vue-cropper": "^0.5.8",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
